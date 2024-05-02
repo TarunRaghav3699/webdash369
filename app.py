@@ -1,5 +1,5 @@
 import os
-import redis
+# import redis
 # from flask_redis import FlaskRedis 
 import bcrypt
 from datetime import datetime
@@ -17,19 +17,19 @@ app = Flask(__name__)
 # Session Configuration
 
 # app.config['REDIS_URL'] = os.getenv('REDIS_URL')  # Set your Redis URL from environment variables
-redis_url = os.getenv("REDIS_URL") # Redis URI
-if not redis_url:
-    raise RuntimeError("Environment variable REDIS_URL not set")
+# redis_url = os.getenv("REDIS_URL") # Redis URI
+# if not redis_url:
+#     raise RuntimeError("Environment variable REDIS_URL not set")
 
-print("Redis URL:", redis_url)
+# print("Redis URL:", redis_url)
 
-app.config["SESSION_TYPE"] = "redis"
-app.config["SESSION_REDIS"] = redis.from_url(redis_url)
-app.config["SESSION_COOKIE_SECURE"] = True
-app.config["SESSION_COOKIE_HTTPONLY"] = True
-app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
+# app.config["SESSION_TYPE"] = "redis"
+# app.config["SESSION_REDIS"] = redis.from_url(redis_url)
+# app.config["SESSION_COOKIE_SECURE"] = True
+# app.config["SESSION_COOKIE_HTTPONLY"] = True
+# app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
 
-Session(app)
+# Session(app)
 # redis_store = FlaskRedis(app)
 
 # to here
