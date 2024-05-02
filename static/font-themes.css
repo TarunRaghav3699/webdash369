@@ -1,0 +1,62 @@
+:root {
+  /* ------------THEME ONE------------ */
+  /* --main-bg-1: #2c3333;
+  --dark-blue-1: #395b64;
+  --light-blue-1: #a5c9ca;
+  --Ulight-blue-1: #e7f6f2; */
+  
+  --TH1-main-1: #2c3333;
+  --TH1-main-2: #395b64;
+  --TH1-main-3: #a5c9ca;
+  --TH1-main-4: #e7f6f2;
+
+  /* ------------THEME ONE------------ */
+  /* --main-bg-2: #040d12;
+  --dark-green-2: #183d3d;
+  --light-green-2: #5c8374;
+  --Ulight-green-2: #93b1a6; */
+ 
+  --TH2-main-1: #040d12;
+  --TH2-main-2: #183d3d;
+  --TH2-main-3: #5c8374;
+  --TH2-main-4: #93b1a6;
+
+  /* ------------THEME ONE------------ */
+  /* --main-bg-3: #2d4356;
+  --Lblue-3: #435b66;
+  --Dpeach-3: #a76f6f;
+  --Lpeach-3: #eab2a0; */
+  
+  
+  --TH3-main-1: #2d4356;
+  --TH3-main-2: #435b66;
+  --TH3-main-3: #a76f6f;
+  --TH3-main-4: #eab2a0;
+
+  /* ------------THEME ONE------------ */
+  /* --main-bg-4: #2c3333;
+  --dark-green-4: #2e4f4f;
+  --teal-4: #0e8388;
+  --light-teal-4: #cbe4de;
+  */
+ 
+  --TH4-main-1: #2c3333;
+  --TH4-main-2: #2e4f4f;
+  --TH4-main-3: #0e8388;
+  --TH4-main-4: #cbe4de;
+
+  /* ------------THEME ONE------------ */
+  /* --main-bg-5: #222831;
+  --grey-5: #393E46;
+  --orange-5: #D65A31;
+  --white-5: #EEEEEE;
+  */
+ 
+  --TH5-main-1: #222831;
+  --TH5-main-2: #393E46;
+  /* --TH5-main-3: #D65A31; */
+  --TH5-main-3: #DA0037;
+  --TH5-main-4: #EEEEEE;
+
+
+}

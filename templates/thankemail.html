@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data.app_name }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .message-container {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .thank-you {
+            font-style: italic;
+            text-align: center;
+            color: #666;
+        }
+
+        .signature {
+            text-align: right;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="message-container">
+            <h1>Welcome to {{ data.app_name }}</h1>
+            <p>Dear {{ data.username }},</p>
+            <p>Thank you for successfully logging into our website. We are delighted to have you as our valued customer.</p>
+            <p>We hope you enjoy your experience with us. If you have any questions or need assistance, feel free to <a href="mailto:tarunraghav702@gmail.com">contact us</a> anytime.</p>
+            <p class="thank-you">Thank you again for choosing {{ data.app_name }}.</p>
+        </div>
+        <p class="signature">Best regards,<br>{{ data.app_name }} Team</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Revolution&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-rB8a0a3k50jwsw9p4PhlBbebxzAV+HfZcLjl5q5IfPkBRiFwpwK1uP5g2eI01i1e" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="static/home.css">
+    <link rel="stylesheet" href="static/common.css">
+    <link rel="stylesheet" href="static/homeMQ.css">
+    <link rel="stylesheet" href="static/font-themes.css">
+
+</head>
+
+<body>
+
+    <div class="cont-1  sec-bg  parallax1">
+        <!-- <hr> -->
+
+        <nav id="main-nav">
+            <div class="logo  nav-padding"><a href="/"> <img src="static/images/untitled.png" alt=""></a>
+            </div>
+            <div class="nav-item  nav-padding">
+                <ul>
+                    <!-- <li>Home</li> -->
+                    <li><a href="/about">AboutUs</a></li>
+                    <li><a href="##" onclick="scrollToServices()">Services</a></li>
+                    <li><a href="##" onclick="scrollToBlog()">Blog's</a></li>
+                    <!-- <li><a href="#blog-scroll">Blog's</a></li> -->
+                    <li><a href="/contact">ContactUs</a></li>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Pages ⇩</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="/bmi">BMI Calculator</a>
+                            <a href="/profile">Personal Dashboard</a>
+                            <a href="#">Locate GYM</a>
+                            <a href="#">Entry Records</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="/about">About</a>
+                <a href="#"  onclick="scrollToServices()">Services</a>
+                <a href="#"  onclick="scrollToBlog()">Clients</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </div>
+        <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+        <!-- <hr> -->
+
+        <div class="cont-1-text">
+            <p>Shape Your Body</p>
+            <span>BE</span>
+            <span class="text-colour">&nbsp;STRONG</span>
+            <p>TRAIN HARD</p>
+
+            <a href="/bmi">
+                <button class="more-btn">Check BMI</button>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="cont-2  sec-bg  parallax2 ">
+        <div class="for-girls">
+            <div class="girl-cmn">
+
+                <h1>For Girls</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tempore voluptas, quae quod
+                    recusandae
+                    laborum eos molestiae nulla, rerum quaerat nisi officiis error. Accusamus harum ullam quis,
+                    temporibus
+                    quo eaque dicta dolores nemo aut sunt in enim nam quaerat nobis quia obcaecati quibusdam
+                    saepe
+                    similique
+                    laborum! Cum quibusdam expedita iusto.</p>
+
+                <button class="more-btn">Explore More</button>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="cont-3   sec-bg  parallax3 ">
+        <div class="for-boys">
+            <div class="boy-cmn">
+
+                <h1>For Boys</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tempore voluptas, quae quod
+                    recusandae
+                    laborum eos molestiae nulla, rerum quaerat nisi officiis error. Accusamus harum ullam quis,
+                    temporibus
+                    quo eaque dicta dolores nemo aut sunt in enim nam quaerat nobis quia obcaecati quibusdam
+                    saepe
+                    similique
+                    laborum! Cum quibusdam expedita iusto.</p>
+
+                <button class="more-btn">Explore More</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="cont-4  sec-bg  parallax4 " id="service-scroll">
+
+        <div class="cont-4-txt">
+            <h6>Why choose US?</h6>
+
+            <!-- <h1 class="heading-hover">PUSH YOUR LIMITS FORWARD</h1> -->
+            <h1 class="heading-hover">Our Top Features</h1>
+        </div>
+
+        <div class="cont-4-flexcont">
+            <div class="box1  cmn-box">
+
+                <img class="your-svg-class-or-id" src="static/images/svg1.png" alt="">
+
+                <h2 class="flexcont">WEIGHTLIFTING</h2>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore eligendi quisquam
+                    expedita
+                    dolore
+                    minus iusto doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                    quibusdam
+                    esse saepe quia enim totam assumenda, quaerat voluptatem culpa dolores mquod suscipit,
+                    numquam
+                    accusamus.</p>
+            </div>
+
+            <div class="box2  cmn-box">
+
+                <img src="static/images/svg2.png" alt="">
+
+                <h2 class="flexcont">SPECIFIC MUSCLES</h2>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore eligendi quisquam
+                    expedita
+                    dolore
+                    minus iusto doloremque quod suscipit, numquam accusamus.</p>
+            </div>
+
+
+            <div class="box3  cmn-box">
+
+                <img src="static/images/svg3.png" alt="">
+
+                <h2 class="flexcont">FLEX YOUR MUSCLES</h2>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore eligendi quisquam Lorem
+                    ipsum
+                    dolor sit. expedita dolore
+                    minus iusto doloremque quod suscipit, numquam accusamus</p>
+            </div>
+
+
+            <div class="box4  cmn-box">
+
+                <img src="static/images/svg4.png" alt="">
+
+                <h2 class="flexcont">CARDIO EXERCISE</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim saepe laboriosam ducimus et
+                    modi
+                    sint
+                    odio distinctio consectetur quam fugiat! Expedita, accusamus cum.</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="cont-5  sec-bg  parallax5 ">
+        <h1 class="heading-hover">WHAT &nbsp;WE&nbsp; OFFER</h1>
+
+        <div class="cont-5-flex">
+
+            <div class="cont-5-cmn  fade">
+                <!-- <img src="static/images/sample.jpeg" alt=""> -->
+                <div class="cont-5-img  cont-5-1">
+                    <img src="static/images/sample.jpeg" alt="">
+                </div>
+                <p><a href="##">BODY BUILDING</a></p>
+            </div>
+
+
+            <div class="cont-5-cmn  fade">
+                <!-- <img src="static/images/sample.jpeg" alt=""> -->
+                <div class="cont-5-img  cont-5-2">
+                    <img src="static/images/boy.jpg" alt="">
+                </div>
+                <p><a href="##">MUSCLE GAIN</a></p>
+            </div>
+
+
+            <div class="cont-5-cmn  fade">
+                <div class="cont-5-img  cont-5-3">
+                    <img src="static/images/girl.jpg" alt="">
+                </div>
+                <p><a href="##">WEIGHT LOSS</a></p>
+            </div>
+
+            <!-- ------------------------------------------- -->
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            <!-- ------------------------------------------- -->
+        </div>
+
+    </div>
+
+
+    <div class="cont-6  sec-bg  parallax6 ">
+        <h1 class="heading-hover">PLAN's PRICING</h1>
+
+        <div class="cont-6-flex">
+
+            <div class="price-box">
+                <h2>Sarters pack</h2>
+                <h3 class="amnt">₹ 39.9</h3>
+                <p>Free Riding</p>
+                <p>Unlimited Equipments</p>
+                <p>Personal Trainer</p>
+                <p>Month to Month</p>
+                <p>No time restrictions </p>
+
+                <button class="more-btn">Subscribe Now</button>
+            </div>
+
+
+            <div class="price-box">
+                <h2>Sarters pack</h2>
+                <h3 class="amnt">₹ 39.9</h3>
+                <p>Free Riding</p>
+                <p>Unlimited Equipments</p>
+                <p>Personal Trainer</p>
+                <p>Month to Month</p>
+                <p>No time restrictions </p>
+
+                <button class="more-btn">Subscribe Now</button>
+            </div>
+
+
+            <div class="price-box">
+                <h2>Sarters pack</h2>
+                <h3 class="amnt">₹ 39.9</h3>
+                <p>Free Riding</p>
+                <p>Unlimited Equipments</p>
+                <p>Personal Trainer</p>
+                <p>Month to Month</p>
+                <p>No time restrictions </p>
+
+                <button class="more-btn">Subscribe Now</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="cont-7  sec-bg  parallax7 " id="blog-scroll">
+
+        <h1 class="heading-hover">FROM BLOG</h1>
+
+        <div class="blog-grid">
+
+            <div class="blog">
+                <div class="blog-img"><img src="static/images/sample.jpeg" alt=""></div>
+
+                <div class="blog-txt">
+                    <div class="blog-heading">WORKOUT NUTRITION EXPLAINED. WHAT TO EAT BEFORE</div>
+
+                    <div class="blog-date">27 Feb</div>
+
+
+                    <div class="blog-content"> recusandae eius animi. Mollitia, optio ducimus? Lorem ipsum
+                        dolor,
+                        sit
+                        amet
+                        consectetur adipisicing elit. Voluptas, quibusdam voluptate voluptatibus nobis
+                        doloremque
+                        delectus impedit tenetur eius porro. Accusantium dolor sit incidunt quos.</div>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="blog-img"><img src="static/images/sample.jpeg" alt=""></div>
+
+                <div class="blog-txt">
+                    <div class="blog-heading">WORKOUT NUTRITION EXPLAINED. WHAT TO EAT BEFORE</div>
+
+                    <div class="blog-date">27 Feb</div>
+
+
+                    <div class="blog-content"> ipsum dolor sit amet consectetur, adipisicing elit. Esse tempore
+                        blanditiis nihil recusandae eius animi. Mollitia, optio ducimus? Lorem ipsum dolor, sit
+                        amet
+                        consectetur adipisicing elit. Voluptas, quibusdam voluptate voluptatibus nobis
+                        doloremque
+                        delectus impedit tenetur eius porro. Accusantium dolor sit incidunt quos.</div>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="blog-img"><img src="static/images/sample.jpeg" alt=""></div>
+
+                <div class="blog-txt">
+                    <div class="blog-heading">WORKOUT NUTRITION EXPLAINED. WHAT TO EAT BEFORE</div>
+
+                    <div class="blog-date">27 Feb</div>
+
+
+                    <div class="blog-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse
+                        tempore
+                        blanditiis nihil recusandae eius animi. Mollitia, optio ducimus? Lorem ipsum dolor, sit
+                        amet
+                        consectetur adipisicing elit. Voluptas, quibusdam voluptate voluptatibus nobis
+                        doloremque
+                        Lorem
+                        ipsum dolor sit amet, consectetur adipisicing elit. Corporis harum excepturi possimus,
+                        alias
+                        iusto molestias cum voluptatum ut consectetur? Sequi.delectus impedit tenetur eius
+                        porro.
+                        Accusantium dolor sit incidunt quos.</div>
+                </div>
+            </div>
+
+        </div>
+        <hr class="cont-7-hr">
+    </div>
+
+    <div class="cont-8">
+
+        <footer>
+
+            <div class="ftr-grid">
+
+                <div class="location ">
+                    <img src="static/images/location.png" alt="">
+                    <p>333 Middle Winchendon Rd, Rindge, NH 03461</p>
+                </div>
+
+                <div class="mobile ">
+                    <img src="static/images/smartphone.png" alt="">
+                    <p>125-711-811 &nbsp;|&nbsp; </p>
+                    <p> 125-668-886</p>
+                </div>
+
+                <div class="mail ">
+                    <img src="static/images/mail.png" alt="">
+                    <p>Support.gymexample@gmail.com</p>
+                </div>
+
+            </div>
+
+
+            <div class="ftr-flex">
+
+                <div class="ftr-1">
+
+                    <div class="ftr-img"><img src="static/images/untitled.png" alt=""></div>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat rerum magnam quo
+                        praesentium
+                        itaque
+                        eligendi cumque aspernatur ullam veritatis accusantium! Molestiae sunt veritatis
+                        mollitia,
+                        ipsa
+                        velit fugit nostrum impedit illo nemo corrupti iusto tempora. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Natus veritatis voluptas illo architecto officia quasi
+                        dolore
+                        autem dicta quidem quaerat!</p>
+
+                    <ul class="social-icons">
+                        <li><a href="#" target="_blank"><img src="static/images/facebook.png" alt="Instagram"></a>
+                        </li>
+
+                        <li><a href="#" target="_blank"><img src="static/images/twitter.png" alt="Facebook"></a>
+                        </li>
+
+                        <li><a href="#" target="_blank"><img src="static/images/instagram.png" alt="YouTube"></a>
+                        </li>
+
+                        <li><a href="#" target="_blank"><img src="static/images/youtube.png" alt="Twitter"></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <div class="ftr-2">
+                    <h1>Useful Links</h1>
+
+                    <ul>
+                        <li><a href="/about">AboutUs</a></li>
+                        <li><a href="##">Blogs</a></li>
+                        <li><a href="##">Classes</a></li>
+                        <li><a href="##">ContactUs</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="ftr-3">
+                    <h1>Support </h1>
+
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Schedules</a></li>
+                        <li><a href="#">Subscribe</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <p class="cprt">Copyright&copy; 2024 All Rights Reserved</p>
+
+        </footer>
+
+    </div>
+
+
+
+
+    <script>
+        function scrollToBlog() {
+            document.getElementById('blog-scroll').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+
+        function scrollToServices() {
+            document.getElementById('service-scroll').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+
+        // --------------------------
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("cont-5-cmn");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+        // ---------------------------------------------------------------
+
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+        // ------------------------------------------------------------------------
+        // JavaScript to toggle the sliding menu 
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+
+
+    </script>
+
+
+
+</body>
+
+</html>

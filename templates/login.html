@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon-16x16.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: image-set(url(../static/images/home-bg.jpg) 1x);
+            /* filter: brightness(40%); */
+
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* background-color: #c1c1c151; */
+            background-color: #d2d2d200;
+            backdrop-filter: blur(3px);
+            height: 60vh;
+            width: 40vw;
+            margin: auto;
+            margin-top: 17vh;
+            /* margin: 150px 300px; */
+            border-radius: 10px;
+            box-shadow: 10px 14px 13px 14px rgba(0, 0, 0, 0.719);
+            padding: 10px;
+        }
+
+        input {
+            border: none;
+            border-radius: 50px;
+            width: 50%;
+            border-bottom: 2px solid black;
+            padding: 10px;
+            /* background: linear-gradient(to right, rgb(36, 123, 195), rgb(192, 50, 192)); */
+            background-color: #c1c1c151;
+            backdrop-filter: blur(20px);
+            /* backdrop-filter: blur(10px); */
+            outline: none;
+            color: #fff;
+        }
+
+
+        input[type="submit"] {
+            background-color: #212122;
+            color: #fff;
+            width: 14vw;
+            border-radius: 30px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #060606;
+        }
+
+        a {
+            font-weight: bold;
+            font-size: large;
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            cursor: pointer;
+            position: absolute;
+            top: 53%;
+            transform: translateY(-50%);
+            right: 543px;
+        }
+
+        @media (max-width: 500px) {
+            form {
+                margin: auto;
+                margin-top: 20vh;
+                width: 80%;
+            }
+
+            input {
+                width: 60%;
+            }
+
+            img {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 102px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form method="post">
+        <h1 style="color: white; font-family:'Courier New', Courier, monospace;">Login</h1>
+        <input type="text" name="username" placeholder="username" required>
+        {{ flash_message }}<br>
+        <input type="password" id="pswd" name="password" placeholder="password" required><img
+            src="https://media.geeksforgeeks.org/wp-content/uploads/20210917150049/eyeslash.png" width="20" height="20"
+            id="togglePassword"><br>
+        <input type="submit" value="login">
+        <!-- <a href="register">register</a> -->
+        <p style="color: white; font-family:'Courier New', Courier, monospace;">Don't have an account?</p><a
+            href="signup">SignUp Here</a>
+    </form>
+
+
+    <script>
+        const togglePassword = document.querySelector('#togglePassword');
+
+        const password = document.querySelector('#pswd');
+
+        togglePassword.addEventListener('click', function (e) {
+
+            // Toggle the type attribute 
+            const type = password.getAttribute(
+                'type') === 'password' ? 'text' : 'password';
+            password.setAttribute('type', type);
+
+            // Toggle the eye slash icon 
+            if (togglePassword.src.match(
+                "https://media.geeksforgeeks.org/wp-content/uploads/20210917150049/eyeslash.png")) {
+                togglePassword.src =
+                    "https://media.geeksforgeeks.org/wp-content/uploads/20210917145551/eye.png";
+            } else {
+                togglePassword.src =
+                    "https://media.geeksforgeeks.org/wp-content/uploads/20210917150049/eyeslash.png";
+            }
+        });
+    </script>
+</body>
+
+</html>

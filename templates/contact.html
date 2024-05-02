@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Revolution&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-rB8a0a3k50jwsw9p4PhlBbebxzAV+HfZcLjl5q5IfPkBRiFwpwK1uP5g2eI01i1e" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="static/contact.css">
+    <link rel="stylesheet" href="static/contactMQ.css">
+    <link rel="stylesheet" href="static/common.css">
+    <link rel="stylesheet" href="static/font-themes.css">
+
+</head>
+
+<body>
+
+    <div class="cont-1  sec-bg  parallax1">
+        <nav>
+            <div class="logo  nav-padding"><a href="/"> <img src="static/images/untitled.png" alt=""></a></div>
+            <div class="nav-item  nav-padding">
+                <ul>
+                    <!-- <li>Home</li> -->
+                    <li><a href="/about">AboutUs</a></li>
+                    <li><a href="##" onclick="scrollToServices()">Services</a></li>
+                    <li><a href="##" onclick="scrollToBlog()">Blog's</a></li>
+                    <li><a href="/">Dashboard</a></li>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Pages ⇩</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="/bmi">BMI Calculator</a>
+                            <a href="#">Personal Dashboard</a>
+                            <a href="#">Locate GYM</a>
+                            <a href="#">Entry Records</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="/about">About</a>
+                <a href="#"  onclick="scrollToServices()">Services</a>
+                <a href="#"  onclick="scrollToBlog()">Clients</a>
+                <a href="/">Dashboard</a>
+            </div>
+        </div>
+        <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+
+        <div class="cont-1-text">
+
+            <div class="text-colour">Contact Us</div>
+
+            <span class="span-one"><a href="/home">Home</a> </span>
+            <span class="span-two">> Contact Us</span>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati dicta eius! Consequuntur eius
+                aut alias quo, consequatur ab quod neque delectus, pariatur deleniti eum asperiores? Rerum tempora
+                accusantium perspiciatis perferendis molestias numquam cumque doloribus?</p>
+        </div>
+
+    </div>
+
+    <div class="cont-2">
+
+        <!-- <h1>Contact Us</h1> -->
+        <hr>
+
+        <div class="formbold-main-wrapper">
+            <!-- Author: FormBold Team -->
+            <!-- Learn More: https://formbold.com -->
+            <div class="formbold-form-wrapper">
+                <form action="##" method="POST">
+                    <div class="formbold-mb-5">
+                        <label for="name" class="formbold-form-label"> Full Name </label>
+                        <input type="text" name="name" id="name" placeholder="Full Name" class="formbold-form-input" />
+                    </div>
+
+                    <div class="formbold-mb-5">
+                        <label for="email" class="formbold-form-label"> Email Address </label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email"
+                            class="formbold-form-input" />
+                    </div>
+
+                    <div class="formbold-mb-5">
+                        <label for="subject" class="formbold-form-label"> Subject </label>
+                        <input type="text" name="subject" id="subject" placeholder="Enter your subject"
+                            class="formbold-form-input" />
+                    </div>
+
+                    <div class="formbold-mb-5">
+                        <label for="message" class="formbold-form-label"> Message </label>
+                        <textarea rows="6" name="message" id="message" placeholder="Type your message"
+                            class="formbold-form-input"></textarea>
+                    </div>
+
+                    <div>
+                        <button class="formbold-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="cont-4">
+
+        <footer>
+            <hr>
+
+            <div class="ftr-grid">
+
+                <div class="location ">
+                    <img src="static/images/location.png" alt="">
+                    <p>333 Middle Winchendon Rd, Rindge, NH 03461</p>
+                </div>
+
+                <div class="mobile ">
+                    <img src="static/images/smartphone.png" alt="">
+                    <p>125-711-811 | 125-668-886</p>
+                </div>
+
+                <div class="mail ">
+                    <img src="static/images/mail.png" alt="">
+                    <p>Support.gymexample@gmail.com</p>
+                </div>
+
+            </div>
+
+
+            <div class="ftr-flex">
+
+                <div class="ftr-1">
+
+                    <div class="ftr-img"><img src="static/images/untitled.png" alt=""></div>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat rerum magnam quo praesentium
+                        itaque
+                        eligendi cumque aspernatur ullam veritatis accusantium! Molestiae sunt veritatis mollitia, ipsa
+                        velit fugit nostrum impedit illo nemo corrupti iusto tempora. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Natus veritatis voluptas illo architecto officia quasi dolore
+                        autem dicta quidem quaerat!</p>
+
+                    <ul class="social-icons">
+                        <li><a href="#" target="_blank"><img src="static/images/facebook.png" alt="Instagram"></a></li>
+
+                        <li><a href="#" target="_blank"><img src="static/images/twitter.png" alt="Facebook"></a></li>
+
+                        <li><a href="#" target="_blank"><img src="static/images/instagram.png" alt="YouTube"></a></li>
+
+                        <li><a href="#" target="_blank"><img src="static/images/youtube.png" alt="Twitter"></a></li>
+                    </ul>
+
+                </div>
+
+
+                <div class="ftr-2">
+                    <h1>Useful Links</h1>
+
+                    <ul>
+                        <li><a href="/about">AboutUs</a></li>
+                        <li><a href="##">Blogs</a></li>
+                        <li><a href="##">Classes</a></li>
+                        <li><a href="##">ContactUs</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="ftr-3">
+                    <h1>Support </h1>
+
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Schedules</a></li>
+                        <li><a href="#">Subscribe</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <p class="cprt">Copyright&copy; 2024 All Rights Reserved</p>
+
+        </footer>
+    </div>
+
+    <script>
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+         // JavaScript to toggle the sliding menu 
+         function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+
+</body>
+
+</html>

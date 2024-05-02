@@ -1,0 +1,606 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+
+  background-size: cover;
+  color: white;
+
+  font-family: "Protest Revolution", sans-serif;
+}
+
+.overlay, .hamburger{
+  display: none;
+}
+
+
+@media screen and (max-width: 760px) {
+
+  .nav-item ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .cont-1 {
+    height: 90vh;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .heading-hover {
+    font-size: 87px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .more-btn {
+    padding: 1.2vh 1.2vw;
+  }
+
+  .cont-1 {
+    /* max-height: 48vh; */
+    min-height: 47vh;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+
+  .cont-1-text {
+    margin-top: 14vh;
+    margin-right: 5vw;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 300;
+    padding: 1.5vh 1.5vw;
+  }
+
+  .cont-1-text :nth-child(1) {
+    font-size: 27px;
+    /* color: var(--TH5-main-4); */
+    letter-spacing: 1px;
+  }
+
+  .cont-1-text :nth-child(2),
+  .text-colour,
+  .cont-1-text :nth-child(4) {
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    /* color: rgb(0, 0, 0); */
+  }
+
+  .cont-2,
+  .cont-3 {
+    /* max-height: 45vh; */
+    min-height: 41vh;
+  }
+
+  .for-girls,
+  .for-boys {
+    width: 50%;
+    height: 100%;
+    border-radius: 0px;
+  }
+
+  .girl-cmn,
+  .boy-cmn {
+    text-align: center;
+    position: relative;
+    padding: 9vh 2vw;
+  }
+
+  .cmn-box {
+    margin-bottom: 5vh;
+  }
+
+  .cont-5-flex {
+    width: 50%;
+  }
+
+  .cont-5-cmn p {
+    font-size: 61px;
+  }
+
+  .prev,
+  .next {
+    font-size: 30px;
+  }
+
+  .cont-6 h1 {
+    margin-bottom: 4vh;
+  }
+
+  .price-box p {
+    padding: 1vh 0;
+  }
+}
+
+/* -----------------  MQ  960  ----------------------------------- */
+
+@media screen and (max-width: 960px) {
+  .prev,
+  .next {
+    top: 30%;
+  }
+
+  .cont-5-img {
+    height: 65vh;
+    /* width: 100%; */
+  }
+
+  .cont-5-img img {
+    height: 65vh;
+  }
+  .ftr-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+  }
+
+  .location,
+  .mobile,
+  .mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* -----------------  MQ  800  ------------------------------- */
+
+@media screen and (max-width: 800px) {
+  .cont-1 {
+    max-height: 100vh;
+    min-height: 55vh;
+    padding-top: 5vh;
+    padding-bottom: 20vh;
+  }
+
+  .cont-1-text {
+    margin-top: 10vh;
+    margin-right: 5vw;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 300;
+    padding: 1.5vh 1.5vw;
+  }
+
+  .cont-1-text :nth-child(1) {
+    font-size: 27px;
+    /* color: var(--TH5-main-4); */
+    letter-spacing: 1px;
+  }
+
+  .cont-1-text :nth-child(2),
+  .text-colour,
+  .cont-1-text :nth-child(4) {
+    font-size: 85px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    /* color: rgb(0, 0, 0); */
+  }
+
+  .cont-2,
+  .cont-3 {
+    height: 90vh;
+    /* min-height: 120vh; */
+  }
+
+  .for-girls,
+  .for-boys {
+    width: 50%;
+    height: 100%;
+    border-radius: 0px;
+  }
+
+  .girl-cmn,
+  .boy-cmn {
+    text-align: center;
+    position: relative;
+    padding: 9vh 2vw;
+  }
+
+  .girl-cmn h1,
+  .boy-cmn h1 {
+    font-size: 38px;
+  }
+
+  .girl-cmn p,
+  .boy-cmn p {
+    font-size: 16px;
+  }
+
+  .blog-img {
+    width: 60%;
+  }
+
+  .ftr-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+  }
+
+  .location,
+  .mobile,
+  .mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* -----------------  MQ  660  ------------------------------- */
+
+@media screen and (max-width: 660px) {
+  .heading-hover {
+    font-size: 74px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .cont-2,
+  .cont-3 {
+    height: 90vh;
+  }
+
+  .for-girls,
+  .for-boys {
+    width: 50%;
+    height: fit-content;
+  }
+
+  .girl-cmn,
+  .boy-cmn {
+    text-align: center;
+    position: relative;
+    padding: 9vh 2vw;
+  }
+
+  .girl-cmn h1,
+  .boy-cmn h1 {
+    font-size: 42px;
+    margin-bottom: 4vh;
+    letter-spacing: 1.5px;
+  }
+  .girl-cmn p,
+  .boy-cmn p {
+    font-size: 16px;
+  }
+
+  .cont-4 h6 {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .cont-4-flexcont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 3vw;
+  }
+
+  .cont-5-flex {
+    /* grid-template-columns: repeat(auto-fill, minmax(30vw, 1fr)); */
+    gap: 2vw;
+    width: 35%;
+  }
+
+  .cont-5-cmn p {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .cont-6-flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    gap: 15px;
+    /* justify-content: space-between; */
+  }
+
+  .blog-heading {
+    font-size: 19px;
+  }
+}
+
+/* --------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+
+  .nav-item,.nav-padding{
+    display: none;
+  }
+ 
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .overlay {
+    display: block;
+
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .hamburger{
+    display: block;
+    margin-left: 7vw;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+}
+
+
+/* -----------------  MQ  450  ------------------------------- */
+@media screen and (max-width: 450px) {
+  .overlay {
+    display: block;
+    overflow-y: auto;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+  .nav-item .overlay {
+    display: none;
+  }
+  /* ------------- */
+
+  .logo img {
+    height: 31px;
+    width: 129px;
+  }
+
+  .heading-hover {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0px;
+  }
+
+  .cont-1 {
+    height: 70vh;
+    margin-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .cont-1-text {
+    width: 85%;
+    margin-top: 14vh;
+    margin-right: 0px;
+    font-weight: 300;
+    padding: 1.5vh 1.5vw;
+  }
+
+  .cont-1-text :nth-child(1) {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .cont-1-text :nth-child(2),
+  .text-colour,
+  .cont-1-text :nth-child(4) {
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  .more-btn {
+    padding: 1vh 1vw;
+    font-size: 13px;
+    margin-top: 2vh;
+  }
+
+  .cont-2,
+  .cont-3 {
+    height: 60vh;
+  }
+
+  .for-girls,
+  .for-boys {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .girl-cmn,
+  .boy-cmn {
+    text-align: center;
+    position: relative;
+    padding: 9vh 2vw;
+  }
+
+  .girl-cmn h1,
+  .boy-cmn h1 {
+    font-size: 30px;
+    margin-bottom: 4vh;
+    letter-spacing: 1.5px;
+  }
+  .girl-cmn p,
+  .boy-cmn p {
+    font-size: 12px;
+  }
+
+  .cont-4 h6 {
+    font-size: 14px;
+    font-weight: lighter;
+  }
+
+  .cont-4-flexcont {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px 3vw;
+    padding-bottom: 7vh;
+  }
+
+  .cmn-box {
+    font-size: 11px;
+    margin-bottom: 2vh;
+  }
+
+  .cont-5-flex {
+    grid-template-columns: repeat(auto-fill, minmax(30vw, 1fr));
+    gap: 2vw;
+    width: 70%;
+  }
+
+  .cont-5-cmn p {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .cont-5-img {
+    height: 30vh;
+  }
+
+  .cont-5-img img {
+    height: 30vh;
+  }
+
+  .cont-6 {
+    margin-bottom: 10vh;
+  }
+
+  .cont-6-flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(75%, 1fr));
+    gap: 15px;
+    /* justify-content: space-between; */
+  }
+
+  .blog-grid {
+    display: grid;
+    width: 80%;
+    margin-bottom: 7vh;
+    /* grid-template-columns: repeat(1, minmax(45%, 1fr)); */
+    grid-template-columns: repeat(1, minmax(80vw, 1fr));
+    gap: 15px;
+  }
+  .blog-heading {
+    font-size: 21px;
+  }
+
+  .ftr-grid {
+    display: none;
+  }
+
+  .ftr-flex {
+    width: 100%;
+  }
+
+  .ftr-1 p {
+    font-size: 13px;
+  }
+
+  .ftr-2 h1,
+  .ftr-3 h1 {
+    font-size: 20px;
+  }
+
+  .ftr-2 ul li a {
+    font-size: 13px;
+  }
+
+  .ftr-3 ul li a {
+    font-size: 13px;
+  }
+}
+/* -----------------  MQ  400  ------------------------------- */
+@media screen and (max-width: 400px) {
+  .cont-1 {
+    height: 50vh;
+  }
+
+  .cont-2,
+  .cont-3 {
+    height: 52vh;
+  }
+}
+/* -----------------  MQ  660  ------------------------------- */
+@media only screen and (max-width: 768px) {
+  .nav-item,
+  .nav-padding {
+    display: none;
+  }
+
+  body {
+    font-family: "Lato", sans-serif;
+  }
+
+  .overlay {
+    display: block;
+
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .hamburger {
+    margin-left: 7vw;
+  }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #f1f1f1;
+  }
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+}

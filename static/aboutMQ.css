@@ -1,0 +1,150 @@
+@media screen and (max-width: 1200px){
+  .trainer-flex {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .nav-item ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .nav-item ul {
+    display: flex;
+  }
+
+  .nav-item ul li a {
+    font-size: 18px;
+    padding: 0px 12px;
+    transition: 0.3s ease;
+  }
+
+  .text-colour{
+    font-size: 105px;
+  }
+
+  .cont-1-text p{
+    font-size: 19px;
+  }
+
+  .heading-hover {
+    font-size: 75px;
+  }
+
+  .cont-2-flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .trainers {
+    width: auto;
+    /* height: 55vh; */
+    margin: 0px auto;
+  }
+
+  .trainer-flex {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+  .ftr-grid {
+    display: none;
+  }
+
+  .ftr-flex {
+    width: 100%;
+  }
+
+  .ftr-1 p {
+    font-size: 13px;
+  }
+
+  .ftr-2 h1,
+  .ftr-3 h1 {
+    font-size: 20px;
+  }
+
+  .ftr-2 ul li a {
+    font-size: 13px;
+  }
+
+  .ftr-3 ul li a {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .heading-hover {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0px;
+  }
+
+  .text-colour {
+    font-size: 60px;
+  }
+
+  .span-one a,
+  .span-two {
+    font-size: 21px;
+  }
+
+  .cont-2-flex {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cont-2-box h4 {
+    font-size: 20px;
+    margin-bottom: 3vh;
+  }
+
+  .cont-2-box p {
+    font-size: 14px;
+  }
+
+  .trainer-flex {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .trainers {
+    width: 85vw;
+    height: 55vh;
+    margin: 0px auto;
+  }
+
+  .trainers img {
+    border-radius: 15px;
+
+    height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-size: cover;
+  }
+
+  .overlay1 {
+    text-align: center;
+    padding: 0px 2vw;
+  }
+
+  .overlay1 h1 {
+    font-size: 38px;
+  }
+
+  .overlay-para {
+    font-size: 14px;
+  }
+}
+
+
+
